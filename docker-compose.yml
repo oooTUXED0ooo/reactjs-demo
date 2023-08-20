@@ -1,0 +1,8 @@
+version: '3'
+services: 
+  react-app:
+    image: test
+    container_name: react
+    ports:
+    - 3000:3000
+    stdin_open: true
